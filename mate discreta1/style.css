@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&family=Raleway&family=Titillium+Web:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Onest', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 110vh;
+    background-image: url(imag3.jpg);
+    color: #af2d0d;
+}
+
+.navbar {
+    width: 97.19%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .7em;
+    border: solid 4px;
+    background-color: #0f0f11;
+    
+    font-size: 25px;
+}
+
+.brand span {
+    color: rgb(111, 143, 24);
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.menu {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+    color: rgb(146, 96, 20);
+    text-decoration: none;
+    padding: 18px 28px;
+    border-radius: 35px;
+}
+
+.menu a:hover {
+    background-color: rgb(151, 175, 56);
+    color: #191c32;
+    transition: ease-in .3s;
+}
+
+.main {
+    
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+div #container {  
+    margin-top: 85px;
+    padding-left: 50px;
+    word-spacing: 5px;
+    color: #a74e12;
+    font-size: x-large;
+    line-height: 1.15;
+    text-align: center;
+   
+}
+button {
+    display: block;
+    margin-right: 20px;
+    padding: 20px;
+    border: solid;
+    border-radius: 25px;
+    margin: auto; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    color: #7a0808;
+    
+
+}
+button:hover{
+        background-color: rgb(10, 10, 10);
+        color: rgb(5, 88, 10);
+        transition: ease-in .3s;
+}
+
+
+
+
+
+
+
+
