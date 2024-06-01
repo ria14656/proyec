@@ -1,0 +1,22 @@
+body.background {
+    background-image: url('tufondodeimagen.jpg'); /* Reemplaza 'tufondodeimagen.jpg' con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
